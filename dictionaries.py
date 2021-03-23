@@ -3,13 +3,13 @@
 # syntax: {}
 # dict{}, List [], Tuples()
 
-dev_ops_student = {
-    "key": "value",
-    "name": "James",
-    "stream": "devops",
-    "completed_lessons": 3,
-    "completed_lessons_name": ["variables", "data types", "collections"]
-}
+# dev_ops_student = {
+#     "key": "value",
+#     "name": "James",
+#     "stream": "devops",
+#     "completed_lessons": 3,
+#     "completed_lessons_name": ["variables", "data types", "collections"]
+# }
 # print(dev_ops_student)
 # # confirm the type
 # print(type(dev_ops_student))
@@ -23,15 +23,24 @@ dev_ops_student = {
 # print(dev_ops_student.values())
 
 # add " operators" in completed lesson name
-dev_ops_student["completed_lessons_name"].append("Operators")
-# to change the completed lesson from 3 to 4
-dev_ops_student["completed_lessons"] = 4
-# remove the data types from completed lessons name
-dev_ops_student["completed_lessons_name"]. remove("data types")
+# dev_ops_student["completed_lessons_name"].append("Operators")
+# # to change the completed lesson from 3 to 4
+# dev_ops_student["completed_lessons"] = 4
+# # remove the data types from completed lessons name
+# dev_ops_student["completed_lessons_name"]. remove("data types")
+#
+# print(dev_ops_student)
 
-print(dev_ops_student)
 
+# Sets - there are not ordered
+# syntax: {}
 
-# Sets
+car_parts = {"wheels", "windows", "doors"}
+print(car_parts)
+car_parts.add("seats")
+print(car_parts)
+car_parts.discard("doors")
+print(car_parts)
 
+# Frozen sets - home work
 

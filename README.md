@@ -59,4 +59,11 @@ example:
 - Remove the "data types" from completed lessons name
 `dev_ops_student["completed_lessons_name"]. remove("data types")`
   
+## Sets:
+- there are not ordered, randomized the output, we can add and delete items
+- syntax: {}
+
+- `car_parts = {"wheels", "windows", "doors"}`
+- `car_parts.add("seats")`
+- `car_parts.discard("doors")`
 
