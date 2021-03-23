@@ -3,7 +3,7 @@
 - Lists and Tuples
 - Dictionaries
 - Sets
-
+ ### dict{}, List [], Tuples()
 ### What is a list?
 - Commonly used to store the data
 - Lists are MUTABLE
@@ -26,3 +26,37 @@ example:
 
 ### pop() deletes the last item from the list
 - `shopping_list.pop()`
+
+
+##Tuples:
+- are the same as lists but they are IMMUTBLE, cannot be changed
+- syntax: tuples`()`
+- `essential = ("paracetamol", "tooth paste", "tea")`
+
+# Dictionaries
+- Dictionaries - use key valued pairs to save the data
+- data can be retrieved by it's value or the key
+- syntax `{}`
+- ```dev_ops_student = {
+    "key": "value",
+    "name": "James",
+    "stream": "devops",
+    "completed_lessons": 3,
+    "completed_lessons_name": ["variables", "data types", "collections"]
+    }
+
+
+### To retrieve a value, we use a key
+`print(dev_ops_student["name"])`
+
+### To get item from a dictionary in a list
+- `print(dev_ops_student["completed_lessons_name"][1])`
+
+- Add "Operators" in completed lesson name
+`dev_ops_student["completed_lessons_name"].append("Operators")`
+- Change the completed lesson from 3 to 4
+`dev_ops_student["completed_lessons"] = 4`
+- Remove the "data types" from completed lessons name
+`dev_ops_student["completed_lessons_name"]. remove("data types")`
+  
+

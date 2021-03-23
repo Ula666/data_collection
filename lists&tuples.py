@@ -26,7 +26,14 @@
 # shopping_list.pop()
 
 # we can mix data types in a list
-mixed_list = [1, 2, 3, "one", "two", "three"]
-print(mixed_list[1:3])
+# mixed_list = [1, 2, 3, "one", "two", "three"]
+# print(mixed_list[1:3])
+
+
+# Tuples - are the same as lists but they are IMMUTBLE, cannot be changed
+# syntax ()
+essential = ("paracetamol", "tooth paste", "tea")
+print(essential)
+
 
 
